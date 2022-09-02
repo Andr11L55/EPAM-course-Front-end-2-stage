@@ -1,0 +1,308 @@
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+body{
+  background: rgb(236, 236, 236);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+}
+.first{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  background-color: white;
+}
+.item1{
+  text-align: center;
+  padding: 100px 0 100px 0;
+  background: #76cdd8;
+  color: white;
+  font-size: 32pt;
+  width: 50%;
+}
+.item2{
+  width: 50%;
+  font-size: 12pt;
+  padding-top: 40px;
+}
+.item2:hover::after {
+  content: '';
+  border-color: #76cdd8;
+  border: 100px solid transparent;
+  border-right: 0px solid #76cdd8;
+  border-top: 100px solid #76cdd8;
+  width: 0.5em;
+  position: relative;
+  bottom: 80px;
+  left: 356px;
+} 
+
+.item3{
+  width: 39%;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+.item2:hover, .item3:hover, .item6:hover{
+  color: #76cdd8;
+}
+.item3:hover::before {
+  content: '';
+  border-color: #76cdd8;
+  border: 100px solid transparent;
+  border-left: 0px solid #76cdd8;
+  border-top: 100px solid #76cdd8;
+  width: 0.5em;
+  position: relative;
+  top: 60px;
+  right: 50px;
+} 
+.title{
+  color: #76cdd8;
+  font-weight: normal;
+  font-size: 18pt!important;
+}
+.btn{
+  background-color: rgb(13, 156, 175);
+  color: white;
+  float: right;
+  width: 150px;
+  padding:  15px 0 15px 0;
+  border: 0;
+  text-align: center;
+}
+.btn:hover{
+  background-color: rgb(118, 205, 216);
+  cursor: pointer;
+}
+.item4{
+  width: 50%;
+  background: #76cdd8;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 11pt;
+  color: white;
+}
+.img_game{
+  border-radius: 50%;
+  width: 50%;
+  height: 200px;
+}
+.item5{
+  width: 50%;
+  background-image: url('/homework/img/image-01.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.item5:hover{
+  transform: scale(1.2);
+}
+.item6{
+  width: 50%;
+  padding-bottom: 50px;
+}
+.item6:hover::after {
+  content: '';
+  border-color: #76cdd8;
+  border: 100px solid transparent;
+  border-right: 0px solid #76cdd8;
+  border-top: 100px solid #76cdd8;
+  width: 0.5em;
+  position: relative;
+  bottom: 130.5px;
+  left: 55.5px;
+} 
+.arch{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.btn-arch{
+  float: none;
+  margin-left: 150px;
+}
+.second{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  background: white;
+}
+.info{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 75%;
+}
+.infotext{
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 14pt;
+}
+.img_court{
+    width: 25%;
+    background-image: url('/homework/img/image-02.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.img_court:hover{
+  transform: scale(1.1);
+}
+.btn-info{
+  margin-right: 60px;
+}
+.third{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  background: white;
+  margin-bottom: 30px;
+}
+.img_bask{
+  width: 25%;
+  background-image: url('/homework/img/image-03.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.img_bask:hover{
+  transform: scale(1.05);
+}
+.plan_title{
+  margin: 0;
+}
+.price_header{
+  background-color: rgb(13, 156, 175);
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-weight: 100;
+}
+.price{
+  border: 1px solid rgb(13, 156, 175);
+  width: 30%;
+  padding-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.price:hover{
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+}
+.btn-disc:hover:before{
+  content: "\002A " ;
+  position: relative;
+  color: red;
+  right: 30px;
+  top: 37px;
+  font-size: 12pt;
+}
+.discount:hover::after{
+  content: "Special discount" ;
+  position: relative;
+  color: #24d4d4;
+  left: 80px;
+  font-size: 12pt;
+}
+
+.loem{
+  padding-left: 50px;
+}
+.btn-price{
+  float: none;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.btn-price:hover{
+  background: #24d4d4;
+  border:1px solid black;
+}
+.four{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.form_title{
+  color: white;
+  background: #24d4d4;
+  padding: 30px 0px 60px 80px;
+  font-size: 16pt;
+}
+.app_form{
+  margin: auto;
+  background: white;
+  z-index: 10;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 75%;
+  position: relative;
+  bottom:40px;
+  margin-bottom: -70px;
+}
+.app_form textarea:focus, input:focus{
+  border-color:  #24d4d4;
+  box-shadow: 0 0 0 0.2rem #24d4d4;
+  outline: none;
+  
+}
+.app_form input,textarea{
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 12pt;
+}
+.app_form input[type="text"], input[type="email"], textarea{
+  border: 1px solid  rgb(192, 190, 189);
+}
+.app_form textarea{
+  min-width: 400px;
+  max-width: 60%;
+  max-height: 50%;
+  min-height: 120px;
+  margin-left: 20px;
+  position: absolute;
+}
+input[list="salary"]:focus-visible, input[list="list_of_positions"]:focus-visible{
+  outline: none;
+  border: none;
+}
+.btn-form{
+  float: none;
+  margin-left: 250px;
+  margin-top: 50px;
+}
+.lorem{
+  background: rgb(13, 156, 175);
+  padding-top: 50px;
+  padding-left: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* position: relative; */
+  bottom:75px;
+  padding-bottom: 50px;
+}
+.left, .right{
+  width: 25%;
+  margin-left: 100px;
+}
+.lorem_title{
+  color: white;
+  margin: 0;
+}
+.lorem_text{
+  font-size: 11pt;
+}
+.simple_footer{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 10pt;
+}
+
+
